@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(e0611e58-582b-4c7c-b60d-686cb8979b1f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to D:\Cocode\scala_tut\klarrio_test\song_matching\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.10. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 5.459s.[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to D:\Cocode\scala_tut\klarrio_test\song_matching\target\scala-2.13\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSVProcessorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minputTitleProc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should transform input_title according to the business rules *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(matchedData("1", "Un mundo de zurdos", "SomeKey", "Writer1", "Performer1", "SongCode1", "SongTitle1", "Writer1"), matchedData("2", "hello", "SomeKey", "Writer2", "Performer2", "SongCode2", "SongTitle2", "Writer2"), matchedData("3", "i singing thing", "SomeKey", "Writer3", "Performer3", "SongCode3", "SongTitle3", "Writer3")) did not contain the same elements as Array(matchedData("1", "MUNDODEZURDO", "SomeKey", "Writer1", "Performer1", "SongCode1", "SongTitle1", "Writer1"), matchedData("2", "HELO", "SomeKey", "Writer2", "Performer2", "SongCode2", "SongTitle2", "Writer2"), matchedData("3", "I SINGIN THIN", "SomeKey", "Writer3", "Performer3", "SongCode3", "SongTitle3", "Writer3")) (CSVProcessorTest.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 143 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	SongMatch.CSVProcessorTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 16 s, completed 21/05/2023 11:32:05 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

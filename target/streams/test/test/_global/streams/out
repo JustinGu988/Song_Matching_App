@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SongMatch.CSVProcessorTest, org.scalatest.tools.Framework$$anon$1@4aa0f33, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSVProcessorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minputTitleProc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should transform input_title according to the business rules *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(matchedData("1", "Un mundo de zurdos", "SomeKey", "Writer1", "Performer1", "SongCode1", "SongTitle1", "Writer1"), matchedData("2", "hello", "SomeKey", "Writer2", "Performer2", "SongCode2", "SongTitle2", "Writer2"), matchedData("3", "i singing thing", "SomeKey", "Writer3", "Performer3", "SongCode3", "SongTitle3", "Writer3")) did not contain the same elements as Array(matchedData("1", "MUNDODEZURDO", "SomeKey", "Writer1", "Performer1", "SongCode1", "SongTitle1", "Writer1"), matchedData("2", "HELO", "SomeKey", "Writer2", "Performer2", "SongCode2", "SongTitle2", "Writer2"), matchedData("3", "I SINGIN THIN", "SomeKey", "Writer3", "Performer3", "SongCode3", "SongTitle3", "Writer3")) (CSVProcessorTest.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 143 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	SongMatch.CSVProcessorTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
